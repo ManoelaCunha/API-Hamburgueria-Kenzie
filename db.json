@@ -1,11 +1,83 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
+      "email": "manoela@mail.com",
+      "password": "$2a$10$88iJqrP3WUFDeTitrjqfv.aYDMMH5hA8a.ou/B25mloJGvA2N2KHu",
+      "name": "Manoela",
       "id": 1
+    },
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$QwuEplyfOMySQtCtCjIL/eieNqHUU4S2ZKSHFOddsgQ0cW2F20J.u",
+      "name": "Kenzinho",
+      "id": 2
     }
-  ]
+  ],
+  "products": [
+    {
+      "image": "https://img2.gratispng.com/20180628/akw/kisspng-cheeseburger-whopper-breakfast-sandwich-bacon-egg-burger-king-double-whopper-5b34c45a1c3e24.9397668515301847941157.jpg",
+      "name": "Big Kenzie",
+      "category": "Sanduíches",
+      "price": 18.99,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "image": "https://img2.gratispng.com/20180406/cwe/kisspng-hamburger-whopper-cheeseburger-big-king-burger-kin-burger-and-sandwich-5ac71315e88834.8585910315229959899525.jpg",
+      "name": "X-Salada",
+      "category": "Sanduíches",
+      "price": 14.99,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "image": "https://img2.gratispng.com/20180408/clw/kisspng-cheeseburger-hamburger-whopper-veggie-burger-fast-burger-king-5aca485ac4c902.1304279215232062348061.jpg",
+      "name": "X-Bacon",
+      "category": "Sanduíches",
+      "price": 16.99,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "image": "https://img2.gratispng.com/20180724/xpt/kisspng-whopper-hamburger-cheeseburger-sloppy-joe-veggie-b-burger-king-breakfast-whopper-5b56cfb9004766.6366387415324159290012.jpg",
+      "name": "X-Egg",
+      "category": "Sanduíches",
+      "price": 14.99,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "image": "https://s3-alpha-sig.figma.com/img/60f1/9a01/e0f45751b040264e27bff533cd98a9fa?Expires=1636934400&Signature=WfjP~R-Ab9pl34-z2W7faWkkxdQtRH6B26reVbXZf~~Cu-PlTufSSK4O~xyW1wRjSQkqoQyqeGUyYJPR9ZhmOmmxUnFt09ETsK5dB48YYo9seBKYpBKtVCiVzXTd6B~g5CeK40BPeRZRi2pRzB0usMtRbeu9zF95z3YEKeyV4iqbX7C1a0ol7Ibp~BfIgiGqyi1b2UC~Ql7w93xZg29TQf21QiCQCLeZr9k879tnQZjYZXrmtsInCIWBf1jtEre81u240Z4coyxjkEvPISu8qKVHqUIpexzOt3FcKJl4XL2fstz6-5lKV8Fy95iTq1h1hqQU7l8s-uKchwziCY3a4A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "name": "Fanta Guaraná",
+      "category": "Bebidas",
+      "price": 3.99,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "image": "https://s3-alpha-sig.figma.com/img/2bc5/898e/0066008c52d555a980ec793bcaf8317f?Expires=1636934400&Signature=Rrh7H5unOziU56Mzo7kCJxlNQZpio5OpHcj18nwz4nHQqnt3jwkK~FeeEL7b2rZm1VhY3fdvkDad5XtfVPgiRjgLROaGldbcHn6c~VPzdtYVgwYpAOIlYwzf7eTMIUIKUTVGCiIMCJOh-XRlOXTW4f6aD0BUuWkn1moJGfCQbsqqYUE745tzrcghJNdfJOKyTe3EKrTIbRan3ETrRY4LG9vCuv13GbdYrw7SsLMe96rRJef5yrPdLttZ21LS8G~fQ2yU7~r18hmhSDiVV4MpQpMd~072OJCrYyMRaojUjcagmnUhYnJmJD0Wc1REaELzEnrjQ4xDkedFzbgCyrvW~w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "name": "Coca Cola",
+      "category": "Bebidas",
+      "price": 4.99,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "image": "https://s3-alpha-sig.figma.com/img/33b4/26ec/3ddbebe1535caac9b2a02d00b60bff97?Expires=1636934400&Signature=UVRfKXyRojXuDxUCIXYW3diJhH7Y8-yQWHPj3r~1qboZVEnZKlYLyA-aB4OdHAXKSkmYlmv5wgqykTN5tVCCRmrNS8~sl8tIxQLSmes2zqaDkty016W1AhrfqWKHjzfpS8jqEkXbxCICUeRrRKdaj0vbTGy4br5xIV15teeBu9q2QucV2a8x3OPwg4c93FDEqot-txx8sHWSOszdDE9RYfRsN5VzMkRDkVePBsHf7wk7DoUeCJF4nRdRcxJWxx3zFX7pn2jNjcrojorMUU3WTr6bnevOYHZCdWir8oB5MCdntJSzVwa4iiWqD3ugTRSCPqoqDMe~ii5zkT22pLP7Mg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "name": "McShake Ovomaltine",
+      "category": "Sobremesas",
+      "price": 10.99,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "image": "https://s3-alpha-sig.figma.com/img/1418/8d02/bff95df5c4ffe3b30eb1fc1d20d11c67?Expires=1636934400&Signature=V~Gg~czQ8Ite9oRrZb9KATPcDSYuylX9pydWe3QLrCqL~ji6nY-i7yh1g-Y8ZymVDujBIL8U4kMrKLbkX~5iKsKPmYeGTLabX9IGay2dOnuCCsI~BCHmmkZmSNL7uL0kzwCenc1lE4JKfoukbfsVQ2X4z5YimJq5NzU~xSrDLVt7Rs0-8wdH-jT3q8OxmTdo7~zbmShUqcK3aryBsxk-FKgTwklzJ~XYmnBsQotrOD8QeLuxSG4Yv3eDelzKPOxkB5O6D38yxrleLXqF~vbo4EtWUC-8gcYSyfJsWcO-tSRhbWyZeUOu~hGA-tvfBe2HLah3G6rvE57cQfJejq7C4Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+      "name": "Sundae Chocolate",
+      "category": "Sobremesas",
+      "price": 8.99,
+      "userId": 1,
+      "id": 8
+    }
+  ],
+  "cart": []
 }
