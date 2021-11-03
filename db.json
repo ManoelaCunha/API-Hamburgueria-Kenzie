@@ -4,15 +4,13 @@
       "email": "manoela@mail.com",
       "password": "$2a$10$88iJqrP3WUFDeTitrjqfv.aYDMMH5hA8a.ou/B25mloJGvA2N2KHu",
       "name": "Manoela",
-      "id": 1,
-      "cart": []
+      "id": 1
     },
     {
       "email": "kenzinho@mail.com",
       "password": "$2a$10$QwuEplyfOMySQtCtCjIL/eieNqHUU4S2ZKSHFOddsgQ0cW2F20J.u",
       "name": "Kenzinho",
-      "id": 2,
-      "cart": []
+      "id": 2
     }
   ],
   "products": [
@@ -72,5 +70,6 @@
       "price": 10.99,
       "id": 8
     }
-  ]
+  ],
+  "cart": []
 }
