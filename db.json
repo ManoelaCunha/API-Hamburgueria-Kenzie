@@ -19,7 +19,6 @@
       "name": "Big Kenzie",
       "category": "Sanduíches",
       "price": 18.99,
-      "userId": 1,
       "id": 1
     },
     {
@@ -27,7 +26,6 @@
       "name": "X-Burguer",
       "category": "Sanduíches",
       "price": 16.99,
-      "userId": 1,
       "id": 2
     },
     {
@@ -35,7 +33,6 @@
       "name": "X-Chicken",
       "category": "Sanduíches",
       "price": 14.99,
-      "userId": 1,
       "id": 3
     },
     {
@@ -43,7 +40,6 @@
       "name": "Combo Kenzie",
       "category": "Sanduíches",
       "price": 26.99,
-      "userId": 1,
       "id": 4
     },
     {
@@ -51,7 +47,6 @@
       "name": "Fanta Guaraná",
       "category": "Bebidas",
       "price": 5.99,
-      "userId": 1,
       "id": 5
     },
     {
@@ -59,7 +54,6 @@
       "name": "Coca Cola",
       "category": "Bebidas",
       "price": 7.99,
-      "userId": 1,
       "id": 6
     },
     {
@@ -67,7 +61,6 @@
       "name": "McShake Ovomaltine",
       "category": "Sobremesas",
       "price": 10.99,
-      "userId": 1,
       "id": 7
     },
     {
@@ -75,7 +68,6 @@
       "name": "Sundae Chocolate",
       "category": "Sobremesas",
       "price": 10.99,
-      "userId": 1,
       "id": 8
     }
   ],
