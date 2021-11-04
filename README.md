@@ -135,7 +135,7 @@ O url base da API é https://api-hamburgueria-kenzie.herokuapp.com
 }
 ```
 
-POST /cart - FORMATO DA RESPOSTA - STATUS 201
+**POST /cart - FORMATO DA RESPOSTA - STATUS 201**
 
 ```javascript
 {
