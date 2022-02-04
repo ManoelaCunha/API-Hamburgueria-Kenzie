@@ -15,56 +15,56 @@
   ],
   "products": [
     {
-      "image": "https://bk-cms-dev.s3.amazonaws.com/big-king-thumb.png?mtime=20210916094349&focal=none",
+      "image": "https://www.giraffas.com.br/app/uploads/2021/06/%E2%80%A2%E2%80%A2-Mega-Brutus-copy-262x170.png",
       "name": "Big Kenzie",
       "category": "Sanduíches",
       "price": 18.99,
       "id": 1
     },
     {
-      "image": "https://bk-cms-dev.s3.amazonaws.com/cheeseburger-bacon-thumb.png?mtime=20210916094653&focal=none",
+      "image": "https://www.giraffas.com.br/app/uploads/2021/05/%E2%80%A2-Grand-Salada-copy-262x170.png",
       "name": "X-Burguer",
       "category": "Sanduíches",
       "price": 16.99,
       "id": 2
     },
     {
-      "image": "https://bk-cms-dev.s3.amazonaws.com/chicken-duplo-thumb.png?mtime=20210916103307&focal=none",
+      "image": "https://www.giraffas.com.br/app/uploads/2021/12/girafas-3653-frango-simples-1_2-262x170.png",
       "name": "X-Chicken",
       "category": "Sanduíches",
       "price": 14.99,
       "id": 3
     },
     {
-      "image": "https://bk-cms-dev.s3.amazonaws.com/combo-Stacker-Dp-thumb-cupom-m-d_2021-10-04-193727_uoxa.png?mtime=20211004153728&focal=none",
-      "name": "Combo Kenzie",
+      "image": "https://www.giraffas.com.br/app/uploads/2021/05/x-bacon-262x170.png",
+      "name": "X-Bacon",
       "category": "Sanduíches",
-      "price": 26.99,
+      "price": 14.99,
       "id": 4
     },
     {
-      "image": "https://m.media-amazon.com/images/I/811nOgtYdKL._AC_UL320_.jpg",
-      "name": "Fanta Laranja",
+      "image": "https://www.giraffas.com.br/app/uploads/2021/12/new-Copo-Fanta-Guarana_2-262x170.png",
+      "name": "Fanta Guarana",
       "category": "Bebidas",
       "price": 5.99,
       "id": 5
     },
     {
-      "image": "https://m.media-amazon.com/images/I/71Gd0BsR6UL._AC_UL320_.jpg",
+      "image": "https://www.giraffas.com.br/app/uploads/2021/12/new-copo-coca-cola-262x170.png",
       "name": "Coca Cola",
       "category": "Bebidas",
       "price": 7.99,
       "id": 6
     },
     {
-      "image": "https://bk-cms-dev.s3.amazonaws.com/Sundae-Chocolate-thumb.png?mtime=20210916115925&focal=none",
+      "image": "https://www.giraffas.com.br/app/uploads/2017/08/sundae_chocolate_2-262x170.png",
       "name": "Sundae Chocolate",
       "category": "Sobremesas",
       "price": 10.99,
       "id": 7
     },
     {
-      "image": "https://bk-cms-dev.s3.amazonaws.com/Sundae-Morango-thumb.png?mtime=20210916120332&focal=none",
+      "image": "https://www.giraffas.com.br/app/uploads/2017/08/Sobremesa_Sundae_Morango570x370px-262x170.png",
       "name": "Sundae Morango",
       "category": "Sobremesas",
       "price": 10.99,
