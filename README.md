@@ -26,7 +26,7 @@ O url base da API é https://api-hamburgueria-kenzie.herokuapp.com
 "user": {
 "email": "kenzinha@mail.com",
 "name": "Kenzinha",
-"id": 4
+"id": 3
 }
 ```
 
@@ -47,7 +47,7 @@ O url base da API é https://api-hamburgueria-kenzie.herokuapp.com
 "user": {
 "email": "kenzinha@mail.com",
 "name": "Kenzinha",
-"id": 4
+"id": 3
 }
 ```
 
@@ -82,9 +82,9 @@ O url base da API é https://api-hamburgueria-kenzie.herokuapp.com
   },
   {
     image: "",
-    name: "Combo Kenzie",
+    name: "X-Bacon",
     category: "Sanduíches",
-    price: 26.99,
+    price: 14.99,
     id: 4,
   },
   {
@@ -103,14 +103,14 @@ O url base da API é https://api-hamburgueria-kenzie.herokuapp.com
   },
   {
     image: "",
-    name: "McShake Ovomaltine",
+    name: "Sundae Chocolate",
     category: "Sobremesas",
     price: 10.99,
     id: 7,
   },
   {
     image: "",
-    name: "Sundae Chocolate",
+    name: "Sundae Morango",
     category: "Sobremesas",
     price: 10.99,
     id: 8,
