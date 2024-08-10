@@ -1,25 +1,26 @@
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 const cors = require("cors");
-const port = process.env.PORT || 3001;
+const path = require("path");
+const fs = require("fs");
 
 const app = jsonServer.create();
-const router = jsonServer.router("db.json");
+const port = process.env.PORT || 3001;
+
+// Caminho para os arquivos JSON
+const dbPath = path.join(process.cwd(), "db.json");
+const routesPath = path.join(process.cwd(), "routes.json");
+
+const router = jsonServer.router(dbPath);
+const rules = auth.rewriter(JSON.parse(fs.readFileSync(routesPath, "utf8")));
 
 app.db = router.db;
-
-const rules = auth.rewriter({
-  users: 600,
-  products: 444,
-  cart: 640,
-});
 
 app.use(cors());
 app.use(rules);
 app.use(auth);
 app.use(router);
-app.listen(port);
 
-console.log("Server is running on port:", port);
-
-/* A senha do Kenzinho é 123456 */
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
