@@ -15,56 +15,56 @@
   ],
   "products": [
     {
-      "image": "https://www.giraffas.com.br/app/uploads/2021/06/%E2%80%A2%E2%80%A2-Mega-Brutus-copy-262x170.png",
+      "image": "https://cdn.pixabay.com/photo/2023/07/13/01/20/ai-generated-8123682_1280.png",
       "name": "Big Kenzie",
       "category": "Sanduíches",
       "price": 18.99,
       "id": 1
     },
     {
-      "image": "https://www.giraffas.com.br/app/uploads/2021/05/%E2%80%A2-Grand-Salada-copy-262x170.png",
+      "image": "https://cdn.pixabay.com/photo/2023/07/13/01/20/ai-generated-8123682_1280.png",
       "name": "X-Burguer",
       "category": "Sanduíches",
       "price": 16.99,
       "id": 2
     },
     {
-      "image": "https://www.giraffas.com.br/app/uploads/2017/06/Galo_de_Briga_2-262x170.png",
+      "image": "https://cdn.pixabay.com/photo/2023/07/13/01/20/ai-generated-8123682_1280.png",
       "name": "X-Chicken",
       "category": "Sanduíches",
       "price": 14.99,
       "id": 3
     },
     {
-      "image": "https://www.giraffas.com.br/app/uploads/2021/05/x-bacon-262x170.png",
+      "image": "https://cdn.pixabay.com/photo/2023/07/13/01/20/ai-generated-8123682_1280.png",
       "name": "X-Bacon",
       "category": "Sanduíches",
       "price": 14.99,
       "id": 4
     },
     {
-      "image": "https://www.giraffas.com.br/app/uploads/2021/12/new-Copo-Fanta-Guarana_2-262x170.png",
+      "image": "https://cdn.pixabay.com/photo/2023/08/12/02/43/soda-8184603_1280.png",
       "name": "Fanta Guaraná",
       "category": "Bebidas",
       "price": 5.99,
       "id": 5
     },
     {
-      "image": "https://www.giraffas.com.br/app/uploads/2021/12/new-copo-coca-cola-262x170.png",
+      "image": "https://cdn.pixabay.com/photo/2023/08/12/02/43/soda-8184604_960_720.png",
       "name": "Coca Cola",
       "category": "Bebidas",
       "price": 7.99,
       "id": 6
     },
     {
-      "image": "https://www.giraffas.com.br/app/uploads/2019/06/sundae_chocoflocos_800x800px-2-copy-262x170.png",
+      "image": "https://cdn.pixabay.com/photo/2023/10/31/11/43/ice-cream-8354973_960_720.png",
       "name": "Sundae Chocolate",
       "category": "Sobremesas",
       "price": 10.99,
       "id": 7
     },
     {
-      "image": "https://www.giraffas.com.br/app/uploads/2017/08/Sobremesa_Sundae_Morango570x370px-262x170.png",
+      "image": "https://cdn.pixabay.com/photo/2023/10/31/11/43/ice-cream-8354973_960_720.png",
       "name": "Sundae Morango",
       "category": "Sobremesas",
       "price": 10.99,
