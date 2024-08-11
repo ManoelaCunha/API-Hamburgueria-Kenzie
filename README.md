@@ -1,12 +1,13 @@
 # api-hamburgueria-kenzie
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurado, usado no desenvolvimento da API da Entrega - Hamburgueria 2.0 - com TypeScript e JSON Server.
+Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurado, usado no desenvolvimento da API da Entrega - Hamburgueria 2.0 - com JSON Server.
 
 ## Endpoints
 
 A API tem um total de 4 endpoints, o usuário que pode se cadastrar, fazer login adicionar e excluir produtos no carrinho.
 
-O url base da API é https://api-hamburgueria-kenzie.herokuapp.com
+~~O url base da API é https://api-hamburgueria-kenzie.herokuapp.com~~ - _deprecated_
+O url base da API é https://api-hamburgueria-kenzie.vercel.app
 
 ### Cadastro
 
