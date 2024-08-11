@@ -36,23 +36,28 @@ app.use(rules);
 app.use(auth);
 app.use(router);
 
-// Middleware para gerenciar POST em /cart
+// Middleware para gerenciar POST e DELETE
 app.use((req, res, next) => {
   if (req.method === "POST" && req.path === "/cart") {
     const { body } = req;
     inMemoryDB.cart.push(body);
     return res.status(201).json(body);
-  } else if (req.method === "POST" && req.path === "/users") {
+  }
+  if (req.method === "POST" && req.path === "/users") {
     const { body } = req;
     const newUser = {
       ...body,
-      id: inMemoryDB.users.length + 1, // Simples incremento de ID
+      id: inMemoryDB.users.length + 1,
     };
     inMemoryDB.users.push(newUser);
     return res.status(201).json(newUser);
-  } else {
-    next();
   }
+  if (req.method === "DELETE" && req.path.startsWith("/cart/")) {
+    const id = parseInt(req.path.split("/").pop(), 10);
+    inMemoryDB.cart = inMemoryDB.cart.filter((item) => item.id !== id);
+    return res.status(204).end();
+  }
+  next();
 });
 
 app.listen(port, () => {
