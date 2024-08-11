@@ -7,6 +7,7 @@ Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configur
 A API tem um total de 4 endpoints, o usuário que pode se cadastrar, fazer login adicionar e excluir produtos no carrinho.
 
 ~~O url base da API é https://api-hamburgueria-kenzie.herokuapp.com~~ - _deprecated_
+
 O url base da API é https://api-hamburgueria-kenzie.vercel.app
 
 ### Cadastro
