@@ -1,8 +1,8 @@
 const jsonServer = require("json-server");
 const auth = require("json-server-auth");
 const cors = require("cors");
-const fs = require("fs");
 const path = require("path");
+const fs = require("fs");
 
 const app = jsonServer.create();
 const port = process.env.PORT || 3001;
@@ -18,6 +18,7 @@ const inMemoryDB = {
   cart: [...db.cart],
 };
 
+// Configurar o roteador e regras de autorização
 const router = jsonServer.router(inMemoryDB);
 const rules = auth.rewriter({
   users: 600,
@@ -25,39 +26,67 @@ const rules = auth.rewriter({
   cart: 640,
 });
 
+// Associar o banco de dados do roteador ao aplicativo
 app.db = router.db;
 
 // Adiciona middlewares padrões do json-server
 const middlewares = jsonServer.defaults();
 app.use(middlewares);
 
+// Adiciona middleware CORS
 app.use(cors());
+
+// Adiciona regras de autorização
 app.use(rules);
 app.use(auth);
-app.use(router);
 
-// Middleware para gerenciar POST e DELETE
-app.use((req, res, next) => {
-  if (req.method === "POST" && req.path === "/cart") {
+// Rotas específicas
+app.post("/cart", (req, res) => {
+  try {
     const { body } = req;
     inMemoryDB.cart.push(body);
-    return res.status(201).json(body);
+    res.status(201).json(body);
+  } catch (error) {
+    next(error);
   }
-  if (req.method === "POST" && req.path === "/users") {
+});
+
+app.post("/users", (req, res) => {
+  try {
     const { body } = req;
     const newUser = {
       ...body,
       id: inMemoryDB.users.length + 1,
     };
     inMemoryDB.users.push(newUser);
-    return res.status(201).json(newUser);
+    res.status(201).json(newUser);
+  } catch (error) {
+    next(error);
   }
-  if (req.method === "DELETE" && req.path.startsWith("/cart/")) {
-    const id = parseInt(req.path.split("/").pop(), 10);
+});
+
+app.delete("/cart/:id", (req, res) => {
+  try {
+    const id = parseInt(req.params.id, 10);
     inMemoryDB.cart = inMemoryDB.cart.filter((item) => item.id !== id);
-    return res.status(204).end();
+    res.status(204).end();
+  } catch (error) {
+    next(error);
   }
-  next();
+});
+
+// Middleware para gerenciar outros casos
+app.use((req, res, next) => {
+  next(); // Continue com o roteador do json-server para outras rotas
+});
+
+// Adiciona o roteador do json-server
+app.use(router);
+
+// Middleware de tratamento de erros
+app.use((err, req, res, next) => {
+  console.error(err.stack); // Log do erro no console
+  res.status(500).json({ error: "Internal Server Error" }); // Resposta genérica de erro
 });
 
 app.listen(port, () => {
